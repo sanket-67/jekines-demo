@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "your_dockerhub_username/nodejs-demo"
+        IMAGE_NAME = "sanket67/jekines-demo"
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
     }
 
